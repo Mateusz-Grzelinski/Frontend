@@ -1,2 +1,4 @@
 flask
-requests
+requests 
+pytest
+pytest-cov

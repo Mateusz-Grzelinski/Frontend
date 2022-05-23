@@ -10,6 +10,7 @@ https://www.youtube.com/watch?v=sCpVNizJbiE
 ## Run test
 
 ```python
+pip3 install -r requirements.txt
 python3 -m pytest --cov=. --cov-report xml:test-results/coverage.xml --junitxml=test-results/pytest-report.xml
 # or 
 pytest --cov=.
